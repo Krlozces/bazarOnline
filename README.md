@@ -1,7 +1,7 @@
 # Desarrollo Full Stack de Bazar
 ![image](https://github.com/Krlozces/bazarOnline/assets/103806591/7f092aaf-6ca9-46f5-b34a-a0c03bbbc4cd)
 ## Api
-- Creación de 2 endpoints
+### Creación de 2 endpoints
 - /api/items?q=:query
   donde :query es la búsqueda que hace el usuario. Debe devolver un JSON con los datos a mostrar en la lista de items.
 - /api/items/:id
