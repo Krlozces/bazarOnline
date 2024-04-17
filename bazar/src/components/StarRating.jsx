@@ -4,7 +4,6 @@ export default function StarRating({ stars }) {
     const maxStars = 5;
     const starPercentage = (stars / maxStars) * 100;
 
-    // Redondeamos el resultado si es decimal
     const starPercentageRounded = Math.round(starPercentage);
 
     const StarStyles = () => {
