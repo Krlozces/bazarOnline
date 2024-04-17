@@ -16,8 +16,8 @@ export default function Product({ title, description, price, stock, brand, thumb
                 </div>
                 <div>
                     <h2 className="font-bold text-2xl">{title} - {brand}</h2>
-                    <div className="flex">
-                        <div className="flex flex-col">
+                    <div className="flex justify-center my-4">
+                        <div className="flex flex-col mr-4">
                             <h3 className="font-bold">
                                 {price}$
                             </h3>
@@ -25,7 +25,7 @@ export default function Product({ title, description, price, stock, brand, thumb
                                 {stock} disponibles
                             </p>
                         </div>
-                        <div>
+                        <div className="ml-4">
                             <StarRating stars={rating} />
                         </div>
                     </div>
